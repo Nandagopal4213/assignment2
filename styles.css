@@ -287,7 +287,9 @@ z-index:5;
 }
 .main-header nav{
     margin-right:40px;
-}
+    flex-direction: column;
+    
+    }
     .last-container{
         flex-direction: column;
         flex-wrap: wrap;
@@ -310,4 +312,16 @@ z-index:5;
 .box1 img {
     width: 50%;
     height: 220px;
+}
+
+.main-header ul{
+/* margin-left: 20px; */
+}
+.main-header ul{
+    margin-right: 0;
+    margin: 20px 0;
+}
+.main-header ul li{
+    margin-right: 10px;
+}
 }
